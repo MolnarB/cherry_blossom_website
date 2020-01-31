@@ -1,0 +1,17 @@
+.footer{
+    background-color: lightpink;
+    text-align: center;
+    background: linear-gradient(to bottom, #287, #5229 100%);
+    padding: 60px 0;
+}
+
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+    margin: 0 8px;
+}
+
