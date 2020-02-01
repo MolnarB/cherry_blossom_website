@@ -1,0 +1,21 @@
+.about{
+    margin: 40px;
+    text-align: center;
+}
+
+.about .title{
+    color: lightcoral;
+    text-transform: capitalize;
+    font-size: 32px;
+    margin-bottom: 35px;
+}
+
+.about .bio{
+    padding: 0 100px 0 100px;
+}
+
+@media(max-width:500px){
+    .about .bio{
+        padding: 0 50px 0 50px;
+    }
+}

@@ -1,0 +1,22 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.css';
+
+.gallery{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.gallery .swiper-slide{
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery .swiper-slide img{
+    width: 100%;
+    height: auto;
+    
+}
