@@ -1,6 +1,7 @@
 .hero{
     color: navajowhite;
     text-align: center;
+;
 
     /*background-image: url("https://img.wallpapersafari.com/desktop/1600/900/16/47/sC4cHY.jpg");
     background-size: cover;
@@ -10,7 +11,7 @@
 
 section{
     width: 100%;
-    height: auto;
+    height: 800px;
     overflow: hidden;
     position: relative;
 }

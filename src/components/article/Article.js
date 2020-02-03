@@ -1,27 +1,14 @@
 import React from 'react';
+import './Article.css';
 
-const Article = () => {
+const Article = ({imgLink, title, author}) => {
     return (
-        <div>
-        <h1>Lorem jdfbfopnorgdfmbyő pon úakwe i úük weo öoú aek úüöiopaweöjk úüötúoúv úveoik üöiküöúaweúők  úoőükfgvűö úűöawööo wokúöviys úüöo WEKO ÜVÚRO </h1>
-
-        <h1>Lorem jdfbfopnorgdfmbyő pon úakwe i úük weo öoú aek úüöiopaweöjk úüötúoúv úveoik üöiküöúaweúők  úoőükfgvűö úűöawööo wokúöviys úüöo WEKO ÜVÚRO </h1>
-
-        <h1>Lorem jdfbfopnorgdfmbyő pon úakwe i úük weo öoú aek úüöiopaweöjk úüötúoúv úveoik üöiküöúaweúők  úoőükfgvűö úűöawööo wokúöviys úüöo WEKO ÜVÚRO </h1>
-
-        <h1>Lorem jdfbfopnorgdfmbyő pon úakwe i úük weo öoú aek úüöiopaweöjk úüötúoúv úveoik üöiküöúaweúők  úoőükfgvűö úűöawööo wokúöviys úüöo WEKO ÜVÚRO </h1>
-
-        <h1>Lorem jdfbfopnorgdfmbyő pon úakwe i úük weo öoú aek úüöiopaweöjk úüötúoúv úveoik üöiküöúaweúők  úoőükfgvűö úűöawööo wokúöviys úüöo WEKO ÜVÚRO </h1>
-
-        <h1>Lorem jdfbfopnorgdfmbyő pon úakwe i úük weo öoú aek úüöiopaweöjk úüötúoúv úveoik üöiküöúaweúők  úoőükfgvűö úűöawööo wokúöviys úüöo WEKO ÜVÚRO </h1>
-
-        <h1>Lorem jdfbfopnorgdfmbyő pon úakwe i úük weo öoú aek úüöiopaweöjk úüötúoúv úveoik üöiküöúaweúők  úoőükfgvűö úűöawööo wokúöviys úüöo WEKO ÜVÚRO </h1>
-
-        <h1>Lorem jdfbfopnorgdfmbyő pon úakwe i úük weo öoú aek úüöiopaweöjk úüötúoúv úveoik üöiküöúaweúők  úoőükfgvűö úűöawööo wokúöviys úüöo WEKO ÜVÚRO </h1>
-
-        <h1>Lorem jdfbfopnorgdfmbyő pon úakwe i úük weo öoú aek úüöiopaweöjk úüötúoúv úveoik üöiküöúaweúők  úoőükfgvűö úűöawööo wokúöviys úüöo WEKO ÜVÚRO </h1>
-
-        <h1>Lorem jdfbfopnorgdfmbyő pon úakwe i úük weo öoú aek úüöiopaweöjk úüötúoúv úveoik üöiküöúaweúők  úoőükfgvűö úűöawööo wokúöviys úüöo WEKO ÜVÚRO </h1>
+        <div className="article">
+            <div className="image"><img alt="cherry blossom" src={imgLink}/></div>
+            <div className="content">
+                <h4 className="title">{title}</h4>
+                <p className="author">{author}</p>
+            </div>
         </div>
     );
 }

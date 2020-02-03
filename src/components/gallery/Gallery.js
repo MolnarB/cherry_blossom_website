@@ -11,11 +11,11 @@ const Gallery = () => {
         slidesPerView: 'auto',
        autoplay: {
             delay: 2500,
-            desableOnInteraction: false
+            desableOnInteraction: true
         },
         coverflowEffect: {
             rotate: 0,
-            modifier: 1,
+            modifier: 10,
             slideShadows: false
         },
         pagination:{
@@ -29,11 +29,13 @@ const Gallery = () => {
 
     return (
         <div className="gallery">
+            <h3 className="title">Gallery</h3>
+            <p>Ide egy kis szöveg a képekről</p>
             <Swiper {...params}>
-                <div className="swiper-slide"><img alt="kecske" src="./img/gallery-blossom/blossom1.jpg"/></div>
-                <div className="swiper-slide"><img alt="kecske" src="./img/gallery-blossom/blossom2.jpg"/></div>
-                <div className="swiper-slide"><img alt="kecske" src="./img/gallery-blossom/blossom3.jpg"/></div>
-                <div className="swiper-slide"><img alt="kecske" src="./img/gallery-blossom/blossom4.jpg"/></div>
+                <div className="swiper-slide"><img alt="cherry blossom" src="./img/gallery-blossom/blossom1.jpg"/></div>
+                <div className="swiper-slide"><img alt="cherry blossom" src="./img/gallery-blossom/blossom2.jpg"/></div>
+                <div className="swiper-slide"><img alt="cherry blossom" src="./img/gallery-blossom/blossom3.jpg"/></div>
+                <div className="swiper-slide"><img alt="cherry blossom" src="./img/gallery-blossom/blossom4.jpg"/></div>
 
             </Swiper>
         </div>
