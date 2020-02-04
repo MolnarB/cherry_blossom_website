@@ -1,6 +1,6 @@
 .history{
     margin: 40px;
-    text-align: center;
+    align-items: center;
 }
 
 .history .title{
@@ -8,16 +8,31 @@
     text-transform: capitalize;
     font-size: 32px;
     margin-bottom: 35px;
+    text-align: center;
 }
 
 .history .content{
     padding: 0 100px 0 100px;
-    
+    text-align: center;
+}
+
+.history .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 @media(max-width:500px){
     .history .content{
         padding: 0 50px 0 50px;
+    }
+}
+
+@media screen and (min-width:40em){
+    .history .cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 

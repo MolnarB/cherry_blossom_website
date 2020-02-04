@@ -22,7 +22,10 @@ const History = () => {
                         Given the cultural significance of the sakura, there are countless events, festivals, and speciality tours that centred around the 
                         blooming of the cherry blossom.</p>
                 </div>
-                <Card/>
+                <div className="cards">
+                    <Card/>
+                    <Card/>
+                </div>
         </div>
     );
 }
