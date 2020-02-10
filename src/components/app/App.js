@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Animated} from 'react-animated-css';
 import Footer from '../footer/Footer';
 import './App.css';
 import Hero from '../hero/Hero';

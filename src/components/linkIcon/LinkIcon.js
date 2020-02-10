@@ -3,7 +3,8 @@ import './LinkIcon.css';
 
 const LinkIcon = ({link, icon}) => {
     return (
-        <a href={link} ><img alt="This is link icon" src={icon} /></a>
+        
+        <a className="icon" href={link}><img alt="icon" fill="white" src={icon}/></a>
     );
 }
 

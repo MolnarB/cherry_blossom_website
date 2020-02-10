@@ -1,10 +1,10 @@
 .footer{
-    background-color: lightpink;
+    background-color: navajowhite;
+    color: oldlace;
     text-align: center;
-    background: linear-gradient(to bottom, #287, #5229 100%);
+    background: linear-gradient(to bottom,#4a042e, #000000 100%);
     padding: 60px 0;
 }
-
 
 ul{
     list-style: none;
@@ -15,3 +15,14 @@ li{
     margin: 0 8px;
 }
 
+@media(max-width:1000px){
+    .footerText{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:800px){
+    .footerText{
+        font-size: 10px;
+    }
+}

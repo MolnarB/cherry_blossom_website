@@ -14,8 +14,8 @@ const Gallery = () => {
             desableOnInteraction: true
         },
         coverflowEffect: {
-            rotate: 0,
-            modifier: 10,
+            rotate: 50,
+            modifier: 0,
             slideShadows: false
         },
         pagination:{

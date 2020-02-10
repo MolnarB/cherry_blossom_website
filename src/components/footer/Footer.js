@@ -10,10 +10,10 @@ const Footer = () => {
         <div className="footer">
             <div className="icons">
                 <ul>
-                    <li><LinkIcon link="a" icon="https://image.flaticon.com/icons/png/512/8/8782.png"/></li>
-                    <li><LinkIcon link="a" icon="https://img.icons8.com/ios-glyphs/30/000000/pinterest.png"/></li>
-                    <li><LinkIcon link="a" icon="https://img.icons8.com/material-sharp/24/000000/facebook-circled.png"/></li>
-                    <li><LinkIcon link="a" icon="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/instagram_circle_black-512.png"/></li>
+                    <li><LinkIcon link="a" icon="./img/icons/instagram.svg"/></li>
+                    <li><LinkIcon link="a" icon="./img/icons/instagram.svg"/></li>
+                    <li><LinkIcon link="a" icon="./img/icons/facebook.svg"/></li>
+                    <li><LinkIcon link="a" icon="./img/icons/pinterest.svg"/></li>
                 </ul>
             </div>
             <div className="footerText">
@@ -22,7 +22,5 @@ const Footer = () => {
         </div>
     );
 }
-
-
 
 export default Footer;
