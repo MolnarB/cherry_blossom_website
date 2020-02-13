@@ -28,7 +28,7 @@ const Gallery = () => {
     }
 
     return (
-        <div className="gallery">
+        <div id="gallery">
             <h3 className="title">Gallery</h3>
             <p>Ide egy kis szöveg a képekről</p>
             <Swiper {...params}>

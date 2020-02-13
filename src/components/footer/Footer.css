@@ -1,4 +1,4 @@
-.footer{
+#footer{
     background-color: navajowhite;
     color: oldlace;
     text-align: center;
@@ -6,11 +6,11 @@
     padding: 60px 0;
 }
 
-ul{
+#footer ul{
     list-style: none;
 }
 
-li{
+#footer li{
     display: inline;
     margin: 0 8px;
 }

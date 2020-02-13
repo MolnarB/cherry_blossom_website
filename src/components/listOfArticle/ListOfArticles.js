@@ -4,7 +4,7 @@ import Article from '../article/Article';
 
 const ListOfArticles = () => {
     return (
-        <div className="articles">
+        <div id="articles">
             <h3 className="title"> Articles</h3>
             <div className="list">
                 <Article imgLink="./img/gallery-blossom/blossom1.jpg" title="Cherry blossom bloom unexpectedly in Japan" author="BBC NEWS"/>

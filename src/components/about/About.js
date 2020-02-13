@@ -3,7 +3,7 @@ import './About.css';
 
 const About = () => {
     return(
-        <div className="about">
+        <div id="about">
             <h3 className="title">About Me</h3>
             <div className="bio">
                 <p>Fiatal mindenre elszánt programozó vagyok. Szeretek új dolgokat tanulni és kipróbálni magam különböző területeken. Fontosnak 

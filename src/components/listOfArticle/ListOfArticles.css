@@ -1,4 +1,4 @@
-.articles{
+#articles{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,33 +8,33 @@
 
 }
 
-.articles h3 {
+#articles h3 {
     color: lightcoral;
     text-transform: capitalize;
     font-size: 32px;
     margin-bottom: 35px;
 }
 
-.articles .list{
+#articles .list{
    
    align-items: center;
 }
 
 @media(max-width:900px){
-    .articles .list{
+    #articles .list{
         width: 500px;
     }
 }
 
 @media(max-width:600px){
-    .articles .list{
+    #articles .list{
         width: 300px;
     }
 }
 
 
 @media(max-width:400px){
-    .articles .list{
+    #articles .list{
         width: 250px;
     }
 }

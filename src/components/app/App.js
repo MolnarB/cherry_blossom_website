@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Animated} from 'react-animated-css';
 import Footer from '../footer/Footer';
 import './App.css';
 import Hero from '../hero/Hero';
@@ -7,20 +6,28 @@ import About from '../about/About';
 import Gallery from '../gallery/Gallery';
 import History from '../history/History';
 import ListOfArticles from '../listOfArticle/ListOfArticles';
+import Header from '../header/Header';
+
 
 
 class App extends Component {
 
+
+
   render() {
     return (
       <div>
+        <Header/>
         <Hero/>
         <History/>
-        <ListOfArticles/>
         <Gallery/>
+        <ListOfArticles/>
         <About/>
         <Footer/>
       </div>
+
+      
+
     );
   }
 }

@@ -4,7 +4,7 @@ import Card from '../card/Card';
 
 const History = () => {
     return (
-        <div className="history">
+        <div id="history">
             <h3 className="title">History</h3>
                 <div className="content">
                     <p>The cherry blossoms, known in Japan as sakura, are well know around the world for their radiant, delicate. and transient beauty. 

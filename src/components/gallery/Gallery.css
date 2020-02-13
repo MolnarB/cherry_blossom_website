@@ -1,11 +1,11 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.css';
 
-.gallery{
+#gallery{
     text-align: center;
     margin-top: 50px;
 }
 
-.gallery .title{
+#gallery .title{
     color: lightcoral;
     text-transform: capitalize;
     font-size: 32px;
@@ -30,7 +30,7 @@
     align-items: center;
 }
 
-.gallery img{
+#gallery img{
     width: 100%;
     height: auto;
     border-radius: 15px;

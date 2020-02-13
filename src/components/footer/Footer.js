@@ -7,7 +7,7 @@ const Footer = () => {
     const year = new Date().getFullYear();
 
     return (
-        <div className="footer">
+        <div id="footer">
             <div className="icons">
                 <ul>
                     <li><LinkIcon link="a" icon="./img/icons/instagram.svg"/></li>
